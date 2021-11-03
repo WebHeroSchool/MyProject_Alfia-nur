@@ -85,12 +85,11 @@ body {
 .main {
 	padding: 74px 65% 181px 0;
 	background: top right 7px no-repeat url(mainImg.svg);
-
 }
 
 .main__title {
 	margin: 0px 0px 36px -5px;
-	font: bold 75px/87px pt_serifbold;
+	font: bold 75px/87px pt_serifbold, arial, helvetica, 'sans-serif';
 }
 
 .main__title-text_highlight {
@@ -116,4 +115,42 @@ body {
 
 .main__button:hover {
 	opacity: .5;
+}
+
+@media(max-width: 768px) {
+	.menu {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.menu {
+		display: none;
+	}
+
+	.header {
+		margin-bottom: 28px;
+	}
+
+	.main {
+		padding: 74% 0 0;
+		background-size: 74%;
+		background-attachment: top center;
+	}
+}
+
+.bottom-circle {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-circle_circle {
+	background: #C8DBFB;
+	opacity: .7;
+	left: 94px;
+	top:97%;
+	width:8px;
+	height: 8px;
+	border-radius: 50%;
+	margin-right: 4px;
 }
