@@ -15,7 +15,7 @@ body {
 
 .logo {
 	position: relative;
-	padding: 40px 0;
+	padding: 44px 0;
 	padding-left: 48px;
 	font: bold 24px/32px pt_serifbold, arial, helvetica, 'sans-serif';
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .main {
-		padding: 76px 62% 268px 0;
+		padding: 68px 62% 266px 0;
 	background: right 6px bottom 134px no-repeat url(mainImg.svg);
 }
 
