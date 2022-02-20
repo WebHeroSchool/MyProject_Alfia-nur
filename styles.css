@@ -10,13 +10,13 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 124px;
+	margin-bottom: 128px;
 }
 
 .logo {
 	position: relative;
-	padding: 43px 0;
-	padding-left: 47px;
+	padding: 40px 0;
+	padding-left: 48px;
 	font: bold 24px/32px pt_serifbold, arial, helvetica, 'sans-serif';
 }
 
@@ -83,13 +83,13 @@ body {
 }
 
 .main {
-	padding: 74px 65% 181px 0;
-	background: top right 7px no-repeat url(mainImg.svg);
+		padding: 76px 62% 268px 0;
+	background: right 6px bottom 134px no-repeat url(mainImg.svg);
 }
 
 .main__title {
-	margin: 0px 0px 36px -5px;
-	font: bold 75px/87px pt_serifbold, arial, helvetica, 'sans-serif';
+	margin: 0px 0px 36px 4px;
+	font: bold 66px/87px pt_serifbold, arial, helvetica, 'sans-serif';
 }
 
 .main__title-text_highlight {
@@ -98,8 +98,8 @@ body {
 
 .main__subtitle {
 	margin: 0 0 40px 3px;
-	width: 420px;
-	height: 52px;
+	width: 455px;
+	height: 54px;
 	font: 22px/26px robotomedium, arial, helvetica, 'sans-serif';
 }
 .main__button {
@@ -107,7 +107,7 @@ body {
 	font: 500 18px/21px robotomedium, arial, helvetica, 'sans-serif';
 	color: #fff;
 	background: #0056EC;
-	padding: 20px 39px 18px 24px;
+	padding: 18px 37px 20px 24px;
 	text-decoration: none;
 	border-radius: 4px;
 	transition: opacity .5s;
