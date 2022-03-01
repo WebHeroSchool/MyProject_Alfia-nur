@@ -10,13 +10,13 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 128px;
+	margin-bottom: 134px;
 }
 
 .logo {
 	position: relative;
-	padding: 44px 0;
-	padding-left: 48px;
+	padding: 41px 0;
+	padding-left: 49px;
 	font: bold 24px/32px pt_serifbold, arial, helvetica, 'sans-serif';
 }
 
@@ -83,24 +83,25 @@ body {
 }
 
 .main {
-		padding: 68px 62% 266px 0;
+	padding: 67px 66% 267px 0;
 	background: right 6px bottom 134px no-repeat url(mainImg.svg);
 }
 
 .main__title {
-	margin: 0px 0px 36px 4px;
-	font: bold 66px/87px pt_serifbold, arial, helvetica, 'sans-serif';
+	margin: 0px 0px 36px 3px;
+	font: bold 66px/88px pt_serifbold, arial, helvetica, 'sans-serif';
 }
 
 .main__title-text_highlight {
-	background: #ECF3FF;
-}
+		background: #ecf3ff;
+		background: linear-gradient(#ffffff 16%,#ecf3ff 0%);
+	}
 
 .main__subtitle {
 	margin: 0 0 40px 3px;
 	width: 455px;
 	height: 54px;
-	font: 22px/26px robotomedium, arial, helvetica, 'sans-serif';
+	font: 22px/26px robotoregular, arial, helvetica, 'sans-serif';
 }
 .main__button {
 	display: inline-block;
