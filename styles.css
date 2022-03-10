@@ -10,7 +10,7 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 134px;
+	margin-bottom: 122px;
 }
 
 .logo {
@@ -83,7 +83,7 @@ body {
 }
 
 .main {
-	padding: 67px 66% 267px 0;
+	padding: 79px 66% 267px 0;
 	background: right 6px bottom 134px no-repeat url(mainImg.svg);
 }
 
@@ -98,7 +98,7 @@ body {
 	}
 
 .main__subtitle {
-	margin: 0 0 40px 3px;
+	margin: 0 0 39px 3px;
 	width: 455px;
 	height: 54px;
 	font: 22px/26px robotoregular, arial, helvetica, 'sans-serif';
